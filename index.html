@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="description" content="Wrotkarstwo szybkie">
+    <meta name="keywords" content="rolki, wrotkarstwo szybkie, zawody,
+                Puchar Polski, Mistrzostwa Polski">
+    <meta name="author" content="xxxx">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>In-line</title>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <link href=<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/fontello.css" type="text/css"/>
+  </head>
+      <body>
+        <div class="wrapper">
+            <div class="header">
+              <div class="logo">
+                <img src= "foto1/ikona.png" style="float:left;width:50px;height:50px"/>
+                Speed<span style= "color: #30d5c8">-Skeating-</span>Inline
+                </div>
+                <div style="clear:both;"></div>
+            </div>
+            <div class= "nav">
+              <ol>
+                <li><a href="#">Osiągnięcia</a></li>
+                <li><a href="#">Instruktor PZSW</a></li>
+                <li><a href="#">Puchar Polski</a></li>
+                <li><a href="#">Mistrzostwa Polski</a></li>
+                <li><a href="#">Galeria</a></li>
+                <li><a href="#">Zawody</a></li>
+                <li><a href="#">Puchar Świata</a></li>
+                <li><a href="#">Mistrzostwa Świata</a></li>
+              </ol>
+            </div>
+
+            <div class= "img" src="foto1/gdansk.jpg">
+                      <div class= "content1">
+                      <h1>Wrotkarstwo Szybkie</h1>
+                      <p>dyscyplina sportowa odmiana wrotkarstwa, w którym trzeba na rolkach
+                       (inline skates) pokonać dystans na torze lub na szosie tak szybko,
+                       jak to możliwe.</p>
+                       <p>Jest to konkurencja sportowa, w której liczy się
+                       przede wszystkim prędkość, technika i czas w jakim zostaje pokonana
+                       dana odległość. Wrotkarze poruszają się w tempie minimalnym 40 km/h.
+                       Technika jazdy znacznie różni się od jazdy fitness.
+                       Dzieli się na wyścigi na torze, ulicy, sztafety, maratony i sprinty</p>
+                       </div>
+                       <div class= "content1">Balbina Surma</div>
+            </div>
+            <div class="socials">
+                <div class="socialdivs">
+                    <div class="fb">
+                      <i class="icon-facebook"></i>
+                    </div>
+                    <div class="yt">
+                      <i class= "icon-video"></i>
+                    </div>
+                    <div class="tw">
+                      <i class="icon-twitter"></i>
+                    </div>
+                    <div class="gplus">
+                      <i class= "icon-gplus"></i>
+                    </div>
+                    <div style="clear:both"></div>
+                </div>
+            </div>
+            <div class= "footer">Speed-Skeating-Inline &copy; 2021 Wszelkie prawa zastrzeżone.
+            </div>
+            <script src= "jquery-3.6.0.min.js"></script>
+
+            <script>
+            $(document).ready(function() {
+            var NavY = $('.nav').offset().top;
+
+            var stickyNav = function(){
+            var ScrollY = $(window).scrollTop();
+
+            if (ScrollY > NavY) {
+              $('.nav').addClass('sticky');
+            } else {
+              $('.nav').removeClass('sticky');
+            }
+            };
+
+            stickyNav();
+
+            $(window).scroll(function() {
+              stickyNav();
+            });
+            });
+            </script>
+
+
+
+
+
+
+
+  </body>
+</html>
