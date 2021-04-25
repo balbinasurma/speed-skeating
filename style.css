@@ -42,20 +42,20 @@ body
 .content1
 {
 	width: 1000px;
-	margin-left: 20px;
+	margin-left: 50px;
 	text-align:left;
-	padding-top: 40px;
+	padding-top: 30px;
 	font-weight: bold;
-	font-size: 35px;
+	font-size: 30px;
 
 
 }
 .content2
 {
 	width: 1000px;
-	margin-left: 1000px;
+	margin-left: 680px;
 	text-align:right;
-	padding-top: 400px;
+	padding-top: 210px;
 	font-weight: bold;
 	font-size: 100px;
 }
@@ -198,5 +198,5 @@ ol > li > a
 	background:url("gdansk.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	filter:brightness(30%);
+	filter:brightness(50%);
 }
